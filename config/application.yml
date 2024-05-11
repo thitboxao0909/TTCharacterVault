@@ -1,0 +1,9 @@
+server:
+  port: 8093
+  servlet:
+    context-path: /api/ttcvault
+  max-http-request-header-size: 2MB
+
+application:
+  security:
+    api-key: apikeytest
